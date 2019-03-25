@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp">
+
+  <ImageView
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="25dp"
+      android:id="@+id/mic"
+      android:src="@drawable/mic"/>
+
+    <LinearLayout
+        android:id="@+id/buttons1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_below="@+id/mic"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/record"
+                android:src="@drawable/recordmic"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="record"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop"
+                android:src="@drawable/stop"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Stop"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/play"
+                android:src="@drawable/play"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="play"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.0009dp"
+        android:layout_below="@id/buttons1"
+        android:id="@+id/view1"
+        android:background="@color/gray"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/done"
+        android:layout_centerHorizontal="true"
+       android:layout_below="@+id/view1"
+        android:text="Done"/>
+
+</RelativeLayout>

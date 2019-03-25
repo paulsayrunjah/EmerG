@@ -1,0 +1,29 @@
+
+
+keytool -list -v -keystore "D:\Project\NameApp\appkey.jks" -alias nameapp -storepass sayrunjah -keypass sayrunjah
+
+
+C:\Program Files\Java\jdk1.8.0_102\bin>keytool -list -v -keystore "D:\Project\Na
+meApp\appkey.jks" -alias nameapp -storepass sayrunjah -keypass sayrunjah
+Alias name: nameapp
+Creation date: 20-Feb-2017
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Sayrunjah, OU=Sayrunjah, O=Sayrunjah, L=Kampala, ST=Kampala, C=UG
+Issuer: CN=Sayrunjah, OU=Sayrunjah, O=Sayrunjah, L=Kampala, ST=Kampala, C=UG
+Serial number: 8bac172
+Valid from: Mon Feb 20 14:22:29 EAT 2017 until: Fri Feb 14 14:22:29 EAT 2042
+Certificate fingerprints:
+         MD5:  43:60:B9:E3:0B:35:B0:CB:F4:6C:25:A0:82:CF:55:9D
+         SHA1: 3A:7F:D1:D6:80:26:53:E2:C8:AC:AC:2F:20:37:4B:05:4F:18:AF:53
+         SHA256: 71:26:D2:34:A0:4D:34:7D:A9:C8:36:70:FD:49:20:CE:33:C8:0F:10:E1:
+C6:35:EF:25:79:AB:C9:DF:DB:FF:65
+         Signature algorithm name: SHA256withRSA
+
+
+
+Check points
+1 healths stations
+2 police stations
+3 fire stations

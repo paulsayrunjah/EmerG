@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#415DB0</color>
+    <color name="colorPrimaryDark">#0000CC</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparentblack">#21000000</color>
+
+    <color name="bg_pressed">#61e13336</color>
+    <color name="tranparentcolor">#00000000</color>
+    <color name="colorPrimarytransparent">#a0ef1c25</color>
+
+
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="blue">#6C6CFF</color>
+    <color name="light_blue">#8294EA</color>
+    <color name="dark_blue"> #0000CC</color>
+    <color name="light_gray">#F7F7F7</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="dark_gray">#ff8e8e8e</color>
+    <color name="dark_gray2">#ff676767</color>
+    <color name="dark_red">#A91515</color>
+    <color name="just_red">#E04A32</color>
+    <color name="face_blue">#415DB0</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="dark">#7F7F7F</color>
+    <color name="light_dark">#C3C3C3</color>
+    <color name="lighter">#D2D2D2</color>
+    <color name="landing">#ff00703c</color>
+    <color name="green3">#ff00B700</color>
+    <color  name="yellow">#D9CE00</color>
+    <color  name="less_gray">#B0ADAD</color>
+    <color  name="loc_gray">#9F9E9E</color>
+    <color  name="orange">#F68414</color>
+    <color name="orange_olx">#FF7803</color>
+
+    <color name="colorSelected">#f78f8f</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+</resources>
